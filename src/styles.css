@@ -91,6 +91,10 @@ a{
     text-align: justify !important;
 }
 
+.movie-img-detail{
+    width: 280px;
+}
+
 @media (max-width: 1000px){
     .movie-card{width: 30%;}
 }
@@ -103,4 +107,10 @@ a{
 @media (max-width: 460px){
     .container-form{ width: 90%; }
     .movie-card{width: 90%;}
+}
+
+@media (max-width: 370px){
+    .movie-img-detail{
+        width: 100%;
+    }
 }

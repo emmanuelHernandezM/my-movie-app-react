@@ -44,8 +44,7 @@ export const MovieDetail = () => {
           <img 
             src={img1} 
             alt={id}
-            width="280px"
-            className='border rounded'/>
+            className='border rounded movie-img-detail'/>
         </div>
 
         <div className='col-sm-12 col-md-7'>
