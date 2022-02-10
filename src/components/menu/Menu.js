@@ -52,7 +52,7 @@ export const Menu = () => {
                             { name }
                         </Link>
                         <li 
-                            className="nav-item nav-link active text-danger ms-lg-2"
+                            className="nav-item nav-link active text-danger ms-lg-2 logout"
                             onClick={ handleLogout }>
                             <i className="fa-solid fa-arrow-right-from-bracket me-2"></i>
                             Cerrar Sesión 
